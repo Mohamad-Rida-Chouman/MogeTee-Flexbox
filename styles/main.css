@@ -20,6 +20,7 @@ header{
 /* navigator style */
 
 .navbar {
+    display: flex;
     position: sticky;
     top: 0px;
     bottom: 0px;
