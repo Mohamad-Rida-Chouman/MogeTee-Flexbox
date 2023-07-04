@@ -118,10 +118,7 @@ header{
 }
 
 .products_container {
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 16px;
-    margin: 12px;
+    display:flex;
 }
 
 .product {
