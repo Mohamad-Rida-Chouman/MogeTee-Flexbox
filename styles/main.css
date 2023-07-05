@@ -118,7 +118,6 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    width: 1fr;
 }
 
 .flex-left{
@@ -130,6 +129,7 @@ header{
 }
 
 .product {
+    width: 1fr;
     padding: 3px;
     box-shadow: 0px 0px 5px rgb(214, 214, 214) ;
     margin: 3px;
