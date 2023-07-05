@@ -98,6 +98,7 @@ header{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: baseline;
+    gap: .6rem;
 }
 
 .product {
@@ -114,8 +115,9 @@ header{
 
 .flex-left{
     /* flex: 1; */
-    align-content:space-between;
+    align-content:center;
     width: 14rem;
+    justify-content: center;
 }
 
 .flex-right{
