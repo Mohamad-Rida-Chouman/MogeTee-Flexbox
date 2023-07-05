@@ -120,21 +120,19 @@ header{
     justify-content: flex-start;
 }
 
-.flex-left{
-    width: 70%;
-}
-
-.flex-right{
-    width: 30%;
-}
-
 .product {
-    width: 1fr;
     padding: 3px;
     box-shadow: 0px 0px 5px rgb(214, 214, 214) ;
     margin: 3px;
+    box-sizing: border-box;
 }
 
+.flex-left{
+    flex: 50%;
+}
 
+.flex-right{
+    flex: 50%;
+}
 
 
