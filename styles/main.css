@@ -100,20 +100,20 @@ header{
 }
 
 .product {
+    display: flex;
+    flex-direction: row;
     padding: 3px;
     box-shadow: 0px 0px 5px rgb(214, 214, 214) ;
     margin: 3px;
-    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .flex-left{
-    flex: 2;
-    text-align: left;
+    flex: 1;
 }
 
 .flex-right{
     flex: 1;
-    text-align: right;
 }
 
 .product-title {
@@ -137,3 +137,8 @@ header{
 .product-img {
     margin: 0px;
 }
+
+
+
+
+
