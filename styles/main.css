@@ -4,6 +4,7 @@ html {
     font-size: 20;
     scroll-behavior: smooth;
     font-family: sans-serif;
+    scroll-padding-top: 50px;
 }
 
 body {
@@ -80,8 +81,7 @@ header{
     padding: 13px;
     margin: 0px;
     text-shadow: 0px 0px 4px rgb(242, 229, 221);
-    padding-top: 60px;
-    width: 100%;
+    padding-top: 10px;
 }
 
 .comment{
@@ -92,6 +92,16 @@ header{
 }
 
 /* Product style */
+
+.section-container{
+    position: relative;
+}
+
+.anchor{
+    position: absolute;
+    top: -100px;
+    left: 0px;
+}
 
 .products_container {
     display: flex;
