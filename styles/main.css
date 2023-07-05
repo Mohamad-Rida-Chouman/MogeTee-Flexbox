@@ -94,24 +94,20 @@ header{
 /* Product style */
 
 .product-img {
-    width: 30%;
     margin: 0px;
 }
 
 .product-title {
-    width: 70%;
     font-size: 22px;
     margin: 0px;
     color: black;
 }
 .details {
-    width: 70%;
     font-size: 15px;
     color: rgb(128,126,123);
     margin: 2px;
 }
 .price {
-    width: 70%;
     font-size: large;
     color: black;
     margin: 2px;
@@ -122,6 +118,14 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
+}
+
+.flex-left{
+    width: 70%;
+}
+
+.flex-right{
+    width: 30%;
 }
 
 .product {
